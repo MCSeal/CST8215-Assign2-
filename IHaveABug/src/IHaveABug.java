@@ -1,5 +1,18 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class IHaveABug {
+
+
+
+    public static int addSevenAndSix() {
+
+        int seven = 4+3;
+        int six = 6;
+
+return six + seven;
     }
+
+    public static void main(String[] args) throws Exception {
+        System.out.println(addSevenAndSix());
+    }
+
 }
+
